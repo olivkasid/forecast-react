@@ -101,6 +101,13 @@ export default function App() {
             </div>
           </div>
         </div>
+        <div class="mt-3">
+          See{" "}
+          <a href="https://github.com/olivkasid/forecast-react">
+            open-source code
+          </a>{" "}
+          by Olha Sidelnikova
+        </div>
       </div>
     </div>
   );
