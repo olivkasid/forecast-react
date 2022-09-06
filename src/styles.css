@@ -1,0 +1,157 @@
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  margin: 0;
+}
+h2 {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #093f68;
+  font-size: 12px !important;
+}
+.search-field {
+  padding: 10px;
+}
+#search {
+  display: inline-block;
+  width: 30%;
+  height: 45px;
+  border: 2px solid #093f68;
+  border-radius: 25px;
+  padding-left: 20px;
+}
+#search:hover {
+  cursor: text;
+}
+#search::placeholder {
+  color: #093f68;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.search-icon {
+  position: absolute;
+  left: 47.5%;
+  top: 24px;
+  color: #093f68;
+  opacity: 80%;
+}
+.search-icon:hover {
+  cursor: pointer;
+}
+#search-submit {
+  display: inline-block;
+  margin-left: 10px;
+  border: 2px solid #093f68;
+  border-radius: 10px;
+  height: 45px;
+  width: 94px;
+  color: #093f68;
+  background-color: #ffffff;
+  font-family: "Bai Jamjuree", sans-serif;
+  transition: all 200ms ease-in-out;
+}
+#search-submit:hover {
+  color: #ffffff;
+  background-color: #093f68;
+}
+.main {
+  margin: 15px auto;
+  width: 60%;
+  height: 290px;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.main-forecast {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border: 2px solid #093f68;
+  border-radius: 10px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 20px;
+}
+.main-forecast div {
+  text-align: center;
+  color: #093f68;
+  margin-top: 7px;
+}
+.current-city {
+  font-family: "Fredoka One", cursive;
+  font-size: 30px;
+}
+.current-date {
+  font-size: 16px;
+}
+.temperature {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+}
+.temperature-value {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 58px;
+}
+.temperature-degrees {
+  display: inline-block;
+  font-weight: bold;
+}
+.convert-temperature {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 7px;
+}
+.icon {
+  display: inline-block;
+}
+#main-icon {
+  vertical-align: unset;
+}
+#current-weather {
+  margin-top: -35px;
+}
+.active {
+  color: #093f68;
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+  color: #093f68;
+}
+.cards-container {
+  width: 60% !important;
+  padding: 0 !important;
+  margin-bottom: 50px !important;
+}
+.day-card {
+  min-height: 115px;
+  max-height: 220px;
+  border: #093f68 2px solid;
+  border-radius: 10px;
+}
+.card-img {
+  width: 50px !important;
+  margin: 0 auto;
+  display: block;
+}
+.day-card div {
+  text-align: center;
+  color: #093f68;
+}
+.day {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #093f68;
+}
+.day-temperature {
+  padding-bottom: 10px;
+}
+.max-temperature {
+  font-weight: bold;
+}
+.git-hub {
+  display: inline-block;
+  margin-left: 10%;
+  color: #093f68;
+  text-decoration: none;
+}
